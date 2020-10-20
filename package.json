@@ -1,0 +1,29 @@
+{
+  "name": "realio-lp-staking",
+  "version": "1.0.0",
+  "description": "An Ethereum smart contract allows uniswap LP token staking to earn RIO ",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contract-loader": "^0.6.1",
+    "@openzeppelin/test-environment": "^0.1.5",
+    "@openzeppelin/test-helpers": "^0.5.6",
+    "@poanet/solidity-flattener": "^3.0.5",
+    "@truffle/hdwallet-provider": "1.1.0",
+    "bip39": "^3.0.2",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "truffle-flattener": "^1.4.4",
+    "web3": "^1.2.11"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "3.2.0"
+  },
+  "scripts": {
+    "test": "mocha --exit --recursive test"
+  },
+  "author": "Aaron Gooch",
+  "license": "MIT"
+}
